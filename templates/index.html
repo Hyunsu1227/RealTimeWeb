@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>Long Polling Sample Code</title>
+<meta charset="utf-8">
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+<script type="text/javascript" src="/static/js/chat.js?ver=3"></script>
+<link rel="stylesheet" type="text/css" href="chat.css" />
+</head>
+<body>
+
+<form onsubmit="chatManager.write(this); return false;">
+	<input name="msg" id="msg" type="text" />
+	<input name="btn" id="btn" type="submit" value="입력" />
+</form>
+<dl id="list"></dl>
+</body>
+</html>
